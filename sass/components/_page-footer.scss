@@ -1,25 +1,24 @@
-.footer {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $secondary-background-color;
 }
 
-.footer__flex {
+.page-footer__flex {
   display: flex;
   align-items: baseline;
 }
 
-.footer-adress__logo {
+.footer-address__logo {
   display: block;
   margin-bottom: 20px;
 
-  font-family: $mainFont, sans-serif;
+  font-family: $secondary-font, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: $primary-white-color;
   text-decoration: none;
-
   &--blue {
     color: $secondary-text-color;
   }
@@ -31,8 +30,8 @@
   align-self: baseline;
 }
 
-.footer-link,
-.footer-adress__contact {
+.footer-address__link,
+.footer-address__contact {
   text-decoration: none;
   color: $primary-white-color;
   font-style: normal;
@@ -40,15 +39,14 @@
   transition: color 250ms $main-animation;
 }
 
-.footer-adress__item:not(:last-child) {
+.footer-address__item:not(:last-child) {
   display: block;
   margin-bottom: 9px;
 }
 
-.footer-adress__contact {
-  color: $footer-adress__contact-color;
+.footer-address__contact {
+  color: $footer-adress-contact-color;
   font-style: normal;
-
   &:hover,
   &:focus {
     color: $secondary-text-color;
@@ -82,19 +80,18 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: background-color 250ms $main-animation;
-}
-
-.social-container__link:hover,
-.social-container__link:focus {
-  fill: $primary-white-color;
-  background-color: $secondary-text-color;
+  &:hover,
+  &:focus {
+    fill: $primary-white-color;
+    background-color: $secondary-text-color;
+  }
 }
 
 .social-container__text {
   margin: 0;
   margin-bottom: 20px;
+  padding: 0;
 
-  font-style: normal;
   font-weight: 700;
 
   text-transform: uppercase;

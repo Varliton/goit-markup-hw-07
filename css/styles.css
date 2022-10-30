@@ -605,13 +605,13 @@ body {
 }
 
 /* Footer */
-.footer {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-background-color);
 }
 
-.footer__flex {
+.page-footer__flex {
   display: flex;
   align-items: baseline;
 }
@@ -638,7 +638,7 @@ body {
   align-self: baseline;
 }
 
-.footer-link,
+.footer-address__link,
 .footer-adress__contact {
   text-decoration: none;
   color: var(--primary-white-color);
